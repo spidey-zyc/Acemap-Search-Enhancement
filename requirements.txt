@@ -1,0 +1,14 @@
+# 基础数据分析库
+pandas>=1.4.0,<2.2.0
+# 列式存储/数据格式处理
+pyarrow>=10.0.0,<16.0.0
+# OpenAI SDK（适配Python 3.10+）
+openai>=1.0.0,<2.0.0
+# 模糊匹配库
+fuzzywuzzy>=0.18.0,<0.19.0
+# Levenshtein距离计算（fuzzywuzzy依赖）
+python-Levenshtein>=0.20.0,<0.22.0
+# 加载apikey等不能泄漏的密码
+python-dotenv>=1.0.0,<2.0.0
+
+requests>=2.25.0
